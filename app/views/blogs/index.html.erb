@@ -16,7 +16,7 @@
   <tbody>
     <% @blogs.each do |blog| %>
       <tr>
-        <td><%= link_to blog.title %></td>
+        <td><%= link_to blog.title, blog %></td>
         <td><%= blog.start_time.strftime("%m-%d") %></td>
       </tr>
     <% end %>
