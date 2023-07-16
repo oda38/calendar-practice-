@@ -17,3 +17,23 @@
 
 
 @import "bootstrap";
+
+
+header {
+  background-color: #727171;
+  height: 100px;
+  color: #ffffff;
+}
+
+.logo {
+  font-size: 35px;
+}
+
+footer {
+  background-color: #727171;
+  height: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

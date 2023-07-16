@@ -9,8 +9,16 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
+  
+  
 
   <body>
+    <header>
+     <div class="logo">Calendar</div>
+    </header>
     <%= yield %>
+    <footer></footer>
   </body>
+  
+  
 </html>
