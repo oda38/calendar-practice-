@@ -75,3 +75,4 @@ end
 gem 'simple_calendar', '~> 2.0'
 gem 'bootstrap', '~> 5.0.2'
 gem 'jquery-rails'
+gem 'rails-i18n', '~> 7.0', '>= 7.0.7'

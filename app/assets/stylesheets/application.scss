@@ -21,8 +21,13 @@
 
 header {
   background-color: #727171;
-  height: 100px;
   color: #ffffff;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  height: 100px;
 }
 
 .logo {
@@ -37,3 +42,5 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+
